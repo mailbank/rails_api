@@ -1,0 +1,335 @@
+Started GET "/" for ::1 at 2020-05-28 10:19:17 -0300
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-05-28 10:19:18 -0300
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-28 10:33:26 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.5ms | Allocations: 316)
+Completed 200 OK in 31ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 1601)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-05-28 10:33:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1351.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (303.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (160.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1009365488459193810)[0m
+  [1m[35m (159.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20200528134725)
+  [1m[35m (157.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (288.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1642.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (901.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (158.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200528134725"]]
+  [1m[35m (167.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddNameToUser (20200528134740)
+  [1m[35m (157.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (159.6ms)[0m  [1m[35mALTER TABLE "users" ADD "name" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (157.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200528134740"]]
+  [1m[35m (158.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (162.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (158.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (843.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-28 13:48:10.569108"], ["updated_at", "2020-05-28 13:48:10.569108"]]
+  [1m[35m (159.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (161.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(1009365488459193810)[0m
+  [1m[35m (161.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (162.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1009365488459193810)[0m
+  [1m[35m (161.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddAuthenticationTokenToUsers (20200528135002)
+  [1m[35m (161.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (161.4ms)[0m  [1m[35mALTER TABLE "users" ADD "authentication_token" character varying(30)[0m
+  [1m[35m (270.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_authentication_token" ON "users"  ("authentication_token")[0m
+  [1m[36mprimary::SchemaMigration Create (194.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200528135002"]]
+  [1m[35m (163.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (163.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (159.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(1009365488459193810)[0m
+  [1m[35m (152.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (154.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (294.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "daniel.test@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (155.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."authentication_token" = $1[0m  [["authentication_token", "2KkMAm5CFLsNjNFHCnfs"]]
+  [1m[36mUser Create (156.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "authentication_token") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "daniel.test@gmail.com"], ["encrypted_password", "$2a$11$ZjPWCyPcy.Rwj3p9b8OrDe9ppJeeHhJchvNELmJIbNXt2kcRZGXsa"], ["created_at", "2020-05-28 14:04:20.577657"], ["updated_at", "2020-05-28 14:04:20.577657"], ["authentication_token", "2KkMAm5CFLsNjNFHCnfs"]]
+  [1m[35m (159.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (177.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1009365488459193810)[0m
+  [1m[35m (157.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePessoas (20200530121219)
+  [1m[35m (154.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (211.7ms)[0m  [1m[35mCREATE TABLE "pessoas" ("id" bigserial primary key, "name" character varying, "birth" date, "cpf" character varying, "rg" character varying, "tel" character varying, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_ba2f3a2cc8"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (157.9ms)[0m  [1m[35mCREATE  INDEX  "index_pessoas_on_user_id" ON "pessoas"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (153.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200530121219"]]
+  [1m[35m (155.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (167.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (166.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(1009365488459193810)[0m
+  [1m[35m (162.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (151.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (151.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (155.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (154.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1009365488459193810)[0m
+  [1m[35m (151.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePessoas (20200530121219)
+  [1m[35m (160.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (160.8ms)[0m  [1m[35mDROP TABLE "pessoas"[0m
+  [1m[36mprimary::SchemaMigration Destroy (150.8ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20200530121219"]]
+  [1m[35m (164.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (153.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1009365488459193810)[0m
+  [1m[35m (154.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (162.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1009365488459193810)[0m
+  [1m[35m (163.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePessoas (20200530121219)
+  [1m[35m (159.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (177.8ms)[0m  [1m[35mCREATE TABLE "pessoas" ("id" bigserial primary key, "name" character varying, "birth" date, "cpf" character varying, "rg" character varying, "tel" character varying, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_ba2f3a2cc8"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (167.0ms)[0m  [1m[35mCREATE  INDEX  "index_pessoas_on_user_id" ON "pessoas"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (161.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200530121219"]]
+  [1m[35m (164.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateApiV1Pessoas (20200530121507)
+  [1m[35m (159.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (173.9ms)[0m  [1m[35mCREATE TABLE "api_v1_pessoas" ("id" bigserial primary key, "name" character varying, "birth" date, "cpf" character varying, "rg" character varying, "tel" character varying, "user_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_f7b5ddde7f"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (165.3ms)[0m  [1m[35mCREATE  INDEX  "index_api_v1_pessoas_on_user_id" ON "api_v1_pessoas"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (160.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200530121507"]]
+  [1m[35m (159.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (164.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (161.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1009365488459193810)[0m
+  [1m[35m (162.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v1/pessoas" for ::1 at 2020-05-30 09:24:43 -0300
+  [1m[35m (164.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::PessoasController#index as */*
+  Parameters: {"token"=>{"token"=>"ABC", "pessoa_id"=>3}, "pessoa"=>{}}
+  [1m[36mApi::V1::Pessoa Load (162.9ms)[0m  [1m[34mSELECT "api_v1_pessoas".* FROM "api_v1_pessoas"[0m
+  ↳ app/controllers/api/v1/pessoas_controller.rb:9:in `index'
+Completed 200 OK in 167ms (Views: 3.5ms | ActiveRecord: 650.5ms | Allocations: 1025)
+
+
+Started POST "/api/v1/pessoas" for ::1 at 2020-05-30 09:25:42 -0300
+Processing by Api::V1::PessoasController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 133)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: api_v1_pessoa):
+  
+app/controllers/api/v1/pessoas_controller.rb:50:in `api_v1_pessoa_params'
+app/controllers/api/v1/pessoas_controller.rb:19:in `create'
+Started POST "/api/v1/pessoas" for ::1 at 2020-05-30 09:26:17 -0300
+Processing by Api::V1::PessoasController#create as */*
+Completed 422 Unprocessable Entity in 562ms (Views: 0.2ms | ActiveRecord: 495.9ms | Allocations: 14203)
+
+
+Started POST "/api/v1/pessoas/0" for ::1 at 2020-05-30 09:26:40 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/pessoas/0"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/pessoas/0" for ::1 at 2020-05-30 09:26:44 -0300
+Processing by Api::V1::PessoasController#show as */*
+  Parameters: {"id"=>"0"}
+  [1m[36mApi::V1::Pessoa Load (162.7ms)[0m  [1m[34mSELECT "api_v1_pessoas".* FROM "api_v1_pessoas" WHERE "api_v1_pessoas"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/pessoas_controller.rb:45:in `set_api_v1_pessoa'
+Completed 404 Not Found in 492ms (ActiveRecord: 322.4ms | Allocations: 1140)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Api::V1::Pessoa with 'id'=0):
+  
+app/controllers/api/v1/pessoas_controller.rb:45:in `set_api_v1_pessoa'
+Started GET "/api/v1/pessoas/1" for ::1 at 2020-05-30 09:26:48 -0300
+Processing by Api::V1::PessoasController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Pessoa Load (159.3ms)[0m  [1m[34mSELECT "api_v1_pessoas".* FROM "api_v1_pessoas" WHERE "api_v1_pessoas"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/pessoas_controller.rb:45:in `set_api_v1_pessoa'
+Completed 404 Not Found in 161ms (ActiveRecord: 159.3ms | Allocations: 664)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Api::V1::Pessoa with 'id'=1):
+  
+app/controllers/api/v1/pessoas_controller.rb:45:in `set_api_v1_pessoa'
+Started GET "/api/v1/pessoas" for ::1 at 2020-05-30 09:26:52 -0300
+Processing by Api::V1::PessoasController#index as */*
+  [1m[36mApi::V1::Pessoa Load (160.3ms)[0m  [1m[34mSELECT "api_v1_pessoas".* FROM "api_v1_pessoas"[0m
+  ↳ app/controllers/api/v1/pessoas_controller.rb:9:in `index'
+Completed 200 OK in 163ms (Views: 1.7ms | ActiveRecord: 160.3ms | Allocations: 844)
+
+
+Started POST "/users" for ::1 at 2020-05-30 09:27:07 -0300
+Processing by Devise::RegistrationsController#create as */*
+Completed 200 OK in 361ms (Views: 0.1ms | ActiveRecord: 325.6ms | Allocations: 8622)
+
+
+Started GET "/users" for ::1 at 2020-05-30 09:27:26 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/pessoas" for ::1 at 2020-05-30 09:27:36 -0300
+Processing by Api::V1::PessoasController#index as */*
+  [1m[36mApi::V1::Pessoa Load (161.7ms)[0m  [1m[34mSELECT "api_v1_pessoas".* FROM "api_v1_pessoas"[0m
+  ↳ app/controllers/api/v1/pessoas_controller.rb:9:in `index'
+Completed 200 OK in 164ms (Views: 2.3ms | ActiveRecord: 161.7ms | Allocations: 842)
+
+
