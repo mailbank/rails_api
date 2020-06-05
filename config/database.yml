@@ -23,7 +23,11 @@ default: &default
 
 development:
   <<: *default
-  database: rails_api_development
+  host: <%= Rails.application.credentials.dig(:development, :host) %>
+  database: <%= Rails.application.credentials.dig(:development,:database) %>
+  username: <%= Rails.application.credentials.dig(:development,:user) %>
+  port: <%= Rails.application.credentials.dig(:development,:port) %>
+  password: <%= Rails.application.credentials.dig(:development,:password) %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,6 +84,8 @@ test:
 #
 production:
   <<: *default
-  database: rails_api_production
-  username: rails_api
-  password: <%= ENV['RAILS_API_DATABASE_PASSWORD'] %>
+  host: <%= Rails.application.credentials.dig(:development, :host) %>
+  database: <%= Rails.application.credentials.dig(:development,:database) %>
+  username: <%= Rails.application.credentials.dig(:development,:user) %>
+  port: <%= Rails.application.credentials.dig(:development,:port) %>
+  password: <%= Rails.application.credentials.dig(:development,:password) %>
